@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">Techno India University</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#placements">Placements</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="#teachers">Teachers</a></li>
+                    <li><a href="#exams">Exams</a></li>
+                    <li><a href="#student-login">Student Login</a></li>
+                    <li><a href="#teacher-login">Teacher Login</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">More</a>
+                        <div class="dropdown-content">
+                            <a href="#privacy">Privacy Policy</a>
+                            <a href="#terms">Terms of Service</a>
+                            <a href="#contact">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="date-time" id="dateTime"></div>
+        </div>
+    </header>
+
+    
+    <main>
+
+    
+        <section id="about" class="section">
+            <div class="container">
+                <h1>About the University</h1>
+                <p>Our university is committed to providing high-quality education and fostering research and innovation.</p>
+            </div>
+        </section>
+
+    
+        <section id="admissions" class="section">
+            <div class="container">
+                <h1>Admissions</h1>
+                <p>Explore our undergraduate, postgraduate, and research programs. Admissions are open now!</p>
+                <button class="btn" id="learnMoreBtn">Learn More</button>
+            </div>
+        </section>
+
+    
+        <section id="curriculum" class="section">
+            <div class="container">
+                <h1>Curriculum</h1>
+                <p>Our curriculum blends theoretical knowledge with practical applications, staying aligned with industry standards.</p>
+            </div>
+        </section>
+
+    
+        <section id="placements" class="section">
+            <div class="container">
+                <h1>Placements</h1>
+                <p>Our placement cell ensures excellent career opportunities, with alumni placed in top companies worldwide.</p>
+            </div>
+        </section>
+
+    
+        <section id="sports" class="section">
+            <div class="container">
+                <h1>Sports</h1>
+                <p>We offer state-of-the-art sports facilities for competitive and recreational activities.</p>
+            </div>
+        </section>
+
+    
+        <section id="teachers" class="section">
+            <div class="container">
+                <h1>Teachers</h1>
+                <p>Meet our dedicated faculty who guide students towards academic excellence and industry readiness.</p>
+            </div>
+        </section>
+
+    
+        <section id="exams" class="section">
+            <div class="container">
+                <h1>Exams</h1>
+                <p>Stay updated with the latest examination schedules and results.</p>
+            </div>
+        </section>
+
+    
+        <section id="student-login" class="section">
+            <div class="container">
+                <h2>Student Login</h2>
+                <form id="studentLoginForm">
+                    <label for="student-email">Email:</label>
+                    <input type="email" id="student-email" placeholder="Enter your email" required><br>
+                    <label for="student-password">Password:</label>
+                    <input type="password" id="student-password" placeholder="Enter your password" required><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </section>
+
+            <section id="teacher-login" class="section">
+            <div class="container">
+                <h2>Teacher Login</h2>
+                <form id="teacherLoginForm">
+                    <label for="teacher-email">Email:</label>
+                    <input type="email" id="teacher-email" placeholder="Enter your email" required><br>
+                    <label for="teacher-password">Password:</label>
+                    <input type="password" id="teacher-password" placeholder="Enter your password" required><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </section>
+
+    
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Learn More</h2>
+                <p>Our university offers world-class education and research opportunities. Join us today!</p>
+            </div>
+        </div>
+
+    </main>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Techno India University. All rights reserved.</p>
+            <p>Email: ho@technoindia.edu | Address: Sector v,University Street, Kolkata, India</p>
+            <div class="footer-links"></br>
+                <a href="#privacy">Privacy Policy</a> |
+                <a href="#terms">Terms of Service</a> |
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
